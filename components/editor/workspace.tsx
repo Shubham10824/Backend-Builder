@@ -22,7 +22,7 @@ export function EditorWorkspace({ components, onSave }: EditorWorkspaceProps) {
   return (
     <div
       ref={setNodeRef}
-      className="relative flex-1 bg-grid-pattern overflow-hidden p-4"
+      className="relative flex-1 bg-grid-pattern z-20 overflow-hidden p-4"
     >
       {components.length === 0 ? (
         <div className="absolute inset-0 flex items-center justify-center text-muted-foreground">

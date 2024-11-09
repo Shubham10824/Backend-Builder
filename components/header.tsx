@@ -20,28 +20,28 @@ export default function Header() {
         </Link>
         <nav className="hidden lg:flex items-center space-x-8">
           <Link
-            href="/features"
+            href="/dashboard"
             className="hover:text-blue-400 transition-colors duration-300"
           >
-            Features
+            Dashboard
           </Link>
           <Link
-            href="/pricing"
+            href="/editor"
             className="hover:text-blue-400 transition-colors duration-300"
           >
-            Pricing
+            Editor
           </Link>
           <Link
-            href="/about"
+            href="/sign-in"
             className="hover:text-blue-400 transition-colors duration-300"
           >
-            About
+            Sign In
           </Link>
           <Link
-            href="/contact"
+            href="/sign-up"
             className="hover:text-blue-400 transition-colors duration-300"
           >
-            Contact
+            Sign Up
           </Link>
           <Button className="bg-gradient-to-r from-blue-500 to-blue-700 text-gray-200 hover:opacity-80 transition-colors duration-300">
             Get Started
