@@ -76,7 +76,7 @@ function DraggableComponent({ component }) {
       {...listeners}
       {...attributes}
       variant="outline"
-      className="w-full flex items-center justify-start space-x-2 text-sm font-medium"
+      className="w-full flex z-50 items-center justify-start space-x-2 text-sm font-medium"
       style={
         transform
           ? {
@@ -94,7 +94,7 @@ function DraggableComponent({ component }) {
 export function ComponentSidebar({ onDragEnd }) {
   return (
     <DndContext onDragEnd={onDragEnd}>
-      <div className="w-64 border-r bg-background">
+      <div className="w-64 border-r z-50 bg-background">
         <div className="p-4 border-b">
           <h2 className="font-semibold">Components</h2>
         </div>
